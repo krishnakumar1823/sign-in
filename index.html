@@ -1,0 +1,74 @@
+<!Doctype html>
+<html>
+<head>
+	<title>login</title>
+	<meta name="viewport" content="width=device-width,Initial-scale=1.0">
+<style>
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+p{
+	padding:10px 0;
+}
+fieldset{
+	width:25%;
+	padding:25px;
+	margin:12% 0 0 35%;
+	border:none;
+	box-shadow: 0px 0px 5px #ccc;
+}
+input[type=email],input[type=password]{
+	border-radius:8px;
+	padding:10px;
+}
+input[type=email]:focus{
+	background-color:powderblue;
+}
+input[type=password]:focus{
+	background-color:powderblue;
+}
+#btn1{
+	width:50%;
+	margin-left:22%;
+	border-radius:25px;
+	padding:10px;
+	background-color:blue;
+	color:white;
+	margin-bottom:6px
+}
+#btn2{
+	width:50%;
+	margin-left:22%;
+	margin-top:10px;
+	border-radius:25px;
+	padding:10px;
+	
+}
+hr{
+	width:46%;
+	display:inline-block;
+	margin-left:5px;
+}
+</style>
+</head>
+<body>
+<form method="post">
+	<fieldset>
+		<h1>Sign in</h1>
+		<p>stay updated on your professional world</p>
+		<input type="email" name="Email" placeholder="Email or Phone"><br>
+		<br>
+		<input type="password" name="password" placeholder="password"><br>
+		<br>
+		<a href="#fpass">forgot password?</a><br>
+		<br>
+		
+		<input type="button" onclick="alert('button1')" id="btn1" value="sign in"><br>
+		<hr><span>or</span><hr>
+		<input type="button" onclick="alert('button2')" id="btn2" value="sign in with apple">
+ </fieldset>
+</form>
+</body>
+</html>
